@@ -13,6 +13,13 @@ This image was built to work into CI environment, like Gitlab ci
 
 you can use it as your ci docker image
 
+## Docker hub
+
+To pull the image from docker hub you run
+
+```
+docker pull sejerbi/ng-ci-container
+```
 
 ## Running tests
 
