@@ -2,7 +2,7 @@
 
 This docker container provides everything needed to build and test Angular applications:
 
-- node 8.9.2
+- node 10.9.0
 - npm 5.5.1
 - yarn 1.3.2
 - Google Chrome 63.0.3239.84
