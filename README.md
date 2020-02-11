@@ -18,7 +18,7 @@ you can use it as your ci docker image
 To pull the image from docker hub you run
 
 ```
-docker pull sejerbi/ng-ci-container
+docker pull sejerbi/ng-ci-container:1.3.0
 ```
 
 ## Running tests
