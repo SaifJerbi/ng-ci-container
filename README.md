@@ -2,9 +2,9 @@
 
 This docker container provides everything needed to build and test Angular applications:
 
-- node 10.16.3
-- npm 5.5.1
-- yarn 1.3.2
+- node 10.19.0
+- npm 6.13.4
+- yarn 1.22.0
 - Google Chrome 63.0.3239.84
 - Mozilla Firefox 47.0.1
 - xvfb (virtual framebuffer) for headless testing

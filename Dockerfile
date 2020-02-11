@@ -1,4 +1,4 @@
-FROM circleci/node:10.16.3-browsers
+FROM circleci/node:10.19.0-browsers
 
 USER root
 
@@ -7,7 +7,8 @@ USER root
 # See https://docs.npmjs.com/getting-started/fixing-npm-permissions
 RUN mkdir ~/.npm-global \
     && npm config set prefix '~/.npm-global' \
-    && echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
+    && echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile \
+    && npm i -g yarn
 
 ###
 # This version of ChromeDriver works with the Chrome version included
