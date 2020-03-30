@@ -6,6 +6,11 @@ USER root
 RUN curl -O https://bootstrap.pypa.io/get-pip.py \
     && python3 get-pip.py \
     && pip3 install awscli --upgrade
+
+###
+# Install Kubectl
+COPY --from=lachlanevenson/k8s-kubectl:v1.10.3 /usr/local/bin/kubectl /usr/local/bin/kubectl
+
 ###
 # Fix up npm global installation
 # See https://docs.npmjs.com/getting-started/fixing-npm-permissions
