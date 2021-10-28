@@ -3,7 +3,7 @@ FROM circleci/node:12.22.7
 USER root
 ###
 # AWS CLI
-RUN curl -O https://bootstrap.pypa.io/get-pip.py \
+RUN curl -O https://bootstrap.pypa.io/pip/3.5/get-pip.py \
     && python3 get-pip.py \
     && pip3 install awscli --upgrade
 
