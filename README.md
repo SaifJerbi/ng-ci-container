@@ -2,11 +2,11 @@
 
 This docker container provides everything needed to build and test Angular applications:
 
-- node 10.19.0
-- npm 6.13.4
-- yarn 1.22.0
-- Google Chrome 63.0.3239.84
-- Mozilla Firefox 47.0.1
+- node 
+- npm 
+- yarn 
+- Google Chrome 
+- Mozilla Firefox
 - xvfb (virtual framebuffer) for headless testing
 
 This image was built to work into CI environment, like Gitlab ci
@@ -18,7 +18,7 @@ you can use it as your ci docker image
 To pull the image from docker hub you run
 
 ```
-docker pull sejerbi/ng-ci-container:v-1.3.0
+docker pull sejerbi/ng-ci-container:tagName
 ```
 
 ## Running tests
